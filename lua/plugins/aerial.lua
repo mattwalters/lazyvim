@@ -30,7 +30,7 @@ local all_symbols = {
 return {
   "stevearc/aerial.nvim",
   opts = {
-    open_automatic = true,
+    open_automatic = false,
     manage_folds = true,
     link_folds_to_tree = true,
     link_tree_to_folds = true,
@@ -38,5 +38,8 @@ return {
     filter_kind = {
       ["_"] = all_symbols,
     },
+  },
+  keys = {
+    { "<leader>a", "<cmd>AerialToggle!<CR>", desc = "Open Aerial" },
   },
 }
