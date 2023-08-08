@@ -3,3 +3,7 @@
 -- Add any additional options here
 
 vim.opt.winbar = "%=%m %f"
+
+vim.opt.ignorecase = false
+vim.opt.clipboard = 'unnamed'
+vim.opt.wrap = true
