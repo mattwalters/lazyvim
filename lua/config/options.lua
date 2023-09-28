@@ -5,5 +5,5 @@
 vim.opt.winbar = "%=%m %f"
 
 vim.opt.ignorecase = false
-vim.opt.clipboard = 'unnamed'
+vim.opt.clipboard = nil
 vim.opt.wrap = true
